@@ -1,0 +1,54 @@
+body {
+    font-family: "Open Sans";
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Open Sans", sans-serif;
+    font-weight: 500;
+    line-height:40px;
+
+}
+
+h1 {
+    font-weight: 700;
+}
+
+/*
+Bootstrap element
+*/
+
+.navbar {
+    font-size: 14px;
+}
+
+.navbar-inverse {
+    background: #000000;
+    border-color: #5d5b66;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-inverse .navbar-nav >li > a {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background: #2e6da4;
+}
+
+/*
+.carousel img {
+    width:100% !important;
+    min-width:100 !important;
+    height: 50%;
+}*/
+
+.carousel-caption {
+    margin-bottom: 200px;
+}

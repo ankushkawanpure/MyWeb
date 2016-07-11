@@ -2,57 +2,117 @@
 
 <html lang="en">
 
-	<!-- Head -->
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE-edge">
-		<meta name = "viewport" content="width=device-width, intial-scale=1, maximum-scale=1">
+<!-- Head -->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name = "viewport" content="width=device-width, intial-scale=1, maximum-scale=1">
 
-		<!-- Boostrap CDN
-		<!-- Latest compiled and minified CSS
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		-->
-		<!-- Google Roboto Font
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-		-->
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-		
-        <link rel="stylesheet" href="./css/bootstrap.min.css">
-		<link rel="stylesheet" href="./css/style.css">
+	<!-- Boostrap CDN
+    <!-- Latest compiled and minified CSS
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    -->
+	<!-- Google Roboto Font
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-		<title>Ankush Kawanpure</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/style.css">
 
-	</head>
-	<!-- End Head -->
+	<title>Ankush Kawanpure</title>
 
-	<!-- Body -->
-	<body>
-		<div class="container-fluid">
+</head>
+<!-- End Head -->
 
-			<h1> Wrb site is loading </h1>
-			<p>
-				sdfkjhdfkjhdskfjhdkfssdfsdf jhdsfjshdfjh jh jhjh jkasmnkjk h jh jkhiuhbsjk jb kjhkjh kjhk k kdfkjs
-			</p>
+<!-- Body -->
+<body>
 
+<!-- Navigation Section -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+
+	<div class="container">
+
+		<div class="navbar-header">
+
+			<button tyoe = "button" class="navbar-toggle" data-toggle="collapse" data-target ="#collapsemenu" aria-expanded="false">
+				<span class="sr-only"> Toggle Navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<a class="navbar-brand" href="#">ANKUSH KAWANPURE</a>
 		</div>
 
-		<div class="container">
-
-			<h1> Wrb site is loading </h1>
-			<p>
-				sdfkjhdfkjhdskfjhdkfssdfsdf jhdsfjshdfjh jh jhjh jkasmnkjk h jh jkhiuhbsjk jb kjhkjh kjhk k kdfkjs
-			</p>
-
+		<div class="navbar-collapse collapse" id = "collapsemenu">
+			<ul class="nav navbar-nav navbar-right">
+				<li> <a href="#">HOME</a></li>
+				<li> <a href="#">ABOUT </a></li>
+				<li> <a href="#">MY-WORK </a></li>
+				<li> <a href="#">CONTACT</a></li>
+			</ul>
 		</div>
 
-		<!-- JQUERY CDN
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-		--->
-		<script src="./js/jquery-3.0.0.min.js"></script>
-		<script src="./js/bootstrap.min.js"></script>
-		<script src="./js/script.js"></script>
-	</body>
-	<!-- End Body -->
+	</div>
+
+</nav>
+
+
+<!-- Header Section -->
+<div class="carousel slide" id = "featured">
+	<div class="carousel-inner">
+		<div class="item active">
+			<img src="./images/banner/banner_1.jpg" alt="First" >
+			<div class="carousel-caption">
+				<h1>Ankush Kawanpure</h1>
+			</div>
+		</div>
+
+		<div class="item">
+			<img src="./images/banner/banner_2.jpg" alt="second">
+			<div class="container carousel-caption">
+				<div class="row centered">
+					<div class="col-md-8 col-md-offset-2">
+						<h1><strong> Ankush Kawanpure</strong>
+
+						</h1>
+						<br /> <br /> <br />
+						<h2> Web / Graphics Designer</h2>
+						<br />
+						<a href="#about-section">  <i class="fa fa-angle-double-down fa-5x down-icon"></i> </a>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+
+	</div>
+
+	<a class="left carousel-control" href="#featured" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+	</a>
+
+	<a class="right carousel-control" href="#featured" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+	</a>
+
+	<a class="down carousel-control" href="#featured" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-down"></span>
+	</a>
+</div>
+
+
+
+<!-- JQUERY CDN
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+--->
+<script src="./js/jquery-2.2.4.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+<!-- End Body -->
 
 </html>
 
