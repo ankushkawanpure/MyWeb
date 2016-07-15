@@ -21,13 +21,15 @@
 	<link rel="stylesheet" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" href="./css/style.css">
 
+	<link rel='icon' href='./images/favico/favicon-32x32.png' type='image/png'>
+
 	<title>Ankush Kawanpure</title>
 
 </head>
 <!-- End Head -->
 
 <!-- Body -->
-<body>
+<body id = "page-top" data-spy = "scroll" data-target=".navbar-fixed-top">
 
 <!-- Navigation Section -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -43,15 +45,16 @@
 				<span class="icon-bar"></span>
 			</button>
 
-			<a class="navbar-brand" href="#">ANKUSH KAWANPURE</a>
+			<a class="navbar-brand page-scroll" href="#page-top">ANKUSH KAWANPURE</a>
 		</div>
+
 
 		<div class="navbar-collapse collapse" id = "collapsemenu">
 			<ul class="nav navbar-nav navbar-right">
-				<li> <a href="#">HOME</a></li>
-				<li> <a href="#">ABOUT </a></li>
-				<li> <a href="#">MY-WORK </a></li>
-				<li> <a href="#">CONTACT</a></li>
+				<li> <a class="page-scroll" href="#page-top">HOME</a></li>
+				<li> <a class="page-scroll" href="#about">ABOUT </a></li>
+				<li> <a class="page-scroll" href="#mywork">MY-WORK </a></li>
+				<li> <a class="page-scroll" href="#contact">CONTACT</a></li>
 			</ul>
 		</div>
 
@@ -61,7 +64,7 @@
 
 
 <!-- Header Section -->
-<header id="header-section">
+<header id="header">
 
 	<div class="container">
 		<div class="row centered">
@@ -72,39 +75,139 @@
 			<br/>
 			<h2> Rochester Institute of Technology</h2>
 			<br/>
-			<a class = "bounce" href="index.html"> <i class="fa fa-angle-double-down fa-5x-down-icon" id = "down-icon"> </i> </a>
+			<a class = "bounce page-scroll" href="#about"> <i class="fa fa-angle-double-down fa-5x-down-icon" id = "down-icon"> </i> </a>
 		</div>
 
 	</div>
 </header>
 
-<!-- About Section-->
-<div id = "about-section">
+<!--ABOUT SECTION -->
+<section id="about">
+	<div class="container" >
+		<div class="row main-top-margin text-center">
+			<div class="col-md-8 col-md-offset-2 " data-scrollreveal="enter top and move 100px, wait 0.3s">
+				<h1>Who Am I ?</h1>
+				<h4>
+					I am Ankush Kawanpure Computer Science graduate student<br/>
+					Rochester Institute of Ttechnology<br/>
+				</h4>
+			</div>
+		</div>
+		<!-- ./ Main Heading-->
+		<div class="row main-low-margin text-center">
+			<div class="col-md-3 " data-scrollreveal="enter left and move 100px, wait 0.4s">
+				<img class="img-circle" src="./images/mypic/pic1.jpg" alt="">
+				<h4><strong>Ankush Kawanpure</strong> </h4>
+				<p>
+					Connect me
+				</p>
+				<p>
+					<a href="https://github.com/ankushkawanpure/"><i class="fa fa-github-square fa-2x color-github"></i></a>
+					<a href="https://www.linkedin.com/in/ankush-kawanpure-06267848"><i class="fa fa-linkedin-square fa-2x color-linkedin"></i></a>
+					<a href="https://www.facebook.com/ankushkawanpure"><i class="fa fa-facebook-square fa-2x color-facebook"></i></a>
+					<a href="https://twitter.com/ankushkawanpure"><i class="fa fa-twitter-square fa-2x color-twitter"></i></a>
+					<a href="https://plus.google.com/105505038896112454915"><i class="fa fa-google-plus-square fa-2x color-google-plus"></i></a>
+
+
+
+				</p>
+
+			</div>
+
+			<div class="col-md-7 col-sm-7 col-md-offset-1  text-justify" data-scrollreveal="enter right and move 100px, wait 0.4s">
+				<h3> Lorem ipsum dolor sit amet Riopsh</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+
+				</p>
+			</div>
+		</div>
+		<!-- ./ Row Content-->
+	</div>
+</section>
+
+<!-- My Work Section-->
+<section id = "mywork">
 
 	<div class="container">
 
 		<div class ="row main-top-margin text-center">
 
-			<div class="col-md-8 col-md-offset-2">
-				<h1>
-					Who am I ?..
+			<div class="col-md-8 col-md-offset-2" data-scrollreveal="enter top and move 100px, wait 0.3s">
+				<h1>My-Work
 				</h1>
 
 				<h4>
 					I am Ankush Kawanpure
 				</h4>
 			</div>
+		</div>
+
+		<div class="row main-low-margin text-center">
+			<div class="col-md-3" data-scrollreveal="enter left and move 100px, wait 0.4s">
+				<img class="img-circle" src="images/mypic/pic1.jpg" >
+				<h4> Ankush Kawanpure</h4>
+				
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
 
 
 
+<section id = "contact">
 
+
+	<div class="container">
+		<div class ="row main-top-margin text-center">
+			<div class="col-md-8 col-md-offset-2" data-scrollreveal="enter top and move 100px, wait 0.3s">
+				<h1>Contact Me</h1>
+				<h4> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+				</h4>
+			</div>
 		</div>
 
 
 
 	</div>
 
-</div>
+	<div id = "message-deatils" class="message-details">
+		<div class="container">
+			<form action="#" method="post" id="myform" class="message-form">
+				<div class="row">
+					<div class="col-sm-6">
+						<input id="author" class="form-control" name="author" type="text" size="30" aria-required="true" placeholder="Name" title="Name" required>
+						<input id="email" class="form-control" name="email" type="text" size="30" aria-required="true" placeholder="Email" title="Email" required>
+						<input id="subject" class="form-control" name="subject" type="text" size="30" aria-required="true" placeholder="Subject" title="Subject" required>
+					</div>
+
+					<div class = "col-sm-6">
+						<textarea id = "message" class="form-control" name = "message" cols="45" rows = "3" aria-required="true" placeholder="Message" title="Message" required> </textarea>
+						<button name="submit" class="btn btn-lg full-width" type="submit" id="submit">SUBMIT</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+</section>
 
 
 
@@ -113,7 +216,15 @@
 --->
 <script src="./js/jquery-2.2.4.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
+
+<script src="./js/scrollReveal.js"></script>
+
+<!-- Scrolling navigation-->
+<script src="./js/jquery.easing.min.js"></script>
+<script src="./js/scrolling-nav.js"></script>
+
 <script src="./js/script.js"></script>
+
 </body>
 <!-- End Body -->
 
