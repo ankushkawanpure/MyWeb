@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e554c3c6-e2e7-4ab3-804c-733fd3dde5af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailproceed.php" afterPath="$PROJECT_DIR$/emailproceed.php" />
     </list>
     <ignored path="my-web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
+            <state relative-caret-position="231">
               <caret line="192" column="70" selection-start-line="192" selection-start-column="70" selection-end-line="192" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="emailproceed.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/emailproceed.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -53,8 +62,8 @@
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/thankyou.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/emailproceed.php" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/emailproceed.php" />
       </list>
     </option>
   </component>
@@ -219,12 +228,12 @@
       <updated>1468203730818</updated>
       <workItem from="1468203732161" duration="29042000" />
       <workItem from="1468797972407" duration="78000" />
-      <workItem from="1468816419295" duration="39000" />
+      <workItem from="1468816419295" duration="284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29159000" />
+    <option name="totallyTimeSpent" value="29404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="23" width="1402" height="877" extended-state="6" />
@@ -369,18 +378,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thankyou.html" />
-    <entry file="file://$PROJECT_DIR$/emailproceed.php">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="231">
+          <caret line="192" column="70" selection-start-line="192" selection-start-column="70" selection-end-line="192" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/emailproceed.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="192" column="70" selection-start-line="192" selection-start-column="70" selection-end-line="192" selection-end-column="70" />
+        <state relative-caret-position="513">
+          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
           <folding />
         </state>
       </provider>

@@ -59,7 +59,9 @@ function sendmail($to, $name, $msgsubject, $body, $plainbody) {
 
 	if(!$mail->send()) {
 	    // echo 'Message could not be sent.';
-	    echo 'Mailer Error: ' . $mail->ErrorInfo;
+	    //echo 'Mailer Error: ' . $mail->ErrorInfo;
+	    header("Location: index.html#contact");
+        exit;
 	} else {
 	    // echo 'Message has been sent';
 	    header("Location: index.html#contact");
