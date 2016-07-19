@@ -19,14 +19,24 @@ h1, h2, h3, h4, h5, h6 {
     font-family:"Open Sans", sans-serif;
     font-weight: 500;
     line-height:40px;
-
+    color: #11b674;
 }
 
+p {
+    font-family:"Open Sans", sans-serif;
+    font-weight: 500;
+    line-height: 2em;
+    color: gray;
+}
 h1 {
     color: #11b674;
     font-weight: 700;
 }
 
+h3 {
+    color: #11b674;
+    font-weight: 700;
+}
 /** Navigation bar */
 
 @media(min-width:767px) {
@@ -44,7 +54,7 @@ h1 {
 
 /** Margin Adjustment for clear view */
 .main-top-margin {
-    margin-top: 75px;
+    margin-top: 60px;
 }
 
 .main-low-margin {
@@ -56,13 +66,14 @@ h1 {
 */
 
 #header {
-    background: url(../images/banner/banner.jpg) no-repeat center top;
+    /*background: url(../images/banner/banner.jpg) no-repeat center top;*/
+    background: url(../images/background.jpg) no-repeat center top;
     margin-top: -20px;
     padding-top:20px;
     text-align:center;
     background-position: center center;
     min-height: 700px;
-    width: 100%;
+
 
     /* browser support*/
     -webkit-background-size: cover;
@@ -71,7 +82,7 @@ h1 {
     background-size: cover;
 }
 
-#header h1 {
+#header #myname {
     margin-top: 120px;
     color: #ffffff;
     font-size: 65px;
@@ -80,11 +91,17 @@ h1 {
     line-height: 70px;
 }
 
-#header h2 {
+#header #logo {
     color: #ffffff;
     font-size: 30px;
     font-weight: 900;
     letter-spacing: 4px;
+}
+#header h2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 3px;
 }
 
 #down-icon {
@@ -135,11 +152,16 @@ h1 {
 About Section
 */
 #about {
-    height: 100%;
+
     padding-top: 50px;
     text-align: center;
     background-color: #fafafa;
 }
+
+#brief {
+    padding-top: 50px;
+}
+
 
 
 /*
@@ -176,12 +198,22 @@ Bootstrap element
     background-color: #fafafa;
 }
 
+#contact-message {
+    padding-bottom: 50px;
+
+}
+#contact-message h3 {
+    color: gray;
+    padding-bottom: 20px;
+
+}
+
 .message-details {
-    padding: 60px 0px;
+    padding: 20px 40px;
 }
 
 .message-details input {
-    padding: 21px 20px;
+    padding: 15px 10px;
 }
 
 .message-details .form-control {
@@ -193,7 +225,7 @@ Bootstrap element
     margin-bottom: 15px;
 }
 .message-details .btn {
-    background-color: #3498db;
+    background-color: #11b674;
     border: 1px solid transparent;
     border-radius: 2px;
     color: #ffffff;
@@ -203,6 +235,16 @@ Bootstrap element
     padding: 12px 16px;
 }
 
+.email-lnk {
+    background-color: #11b674;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: .875em;
+    font-weight: 800;
+    width: 100%;
+    padding: 12px 16px;
+}
 
 
 /***************
@@ -228,3 +270,48 @@ Color code
 .color-google-plus{
     color : #dd4b39;
 }
+
+/**************
+Footer
+**************/
+#footer {
+    text-align: right;
+    padding: 10px 30px 10px 30px;
+}
+
+
+
+#me {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    z-index: 0;
+}
+
+.help {
+    position: relative;
+    font-size: 11px;
+    color: #2a2e2c;
+    z-index: 100;
+    padding-top: 10px;
+}
+
+.help span {
+    background-color: #F7F7F5;
+    padding-right: 10px;
+}
+
+.help li {
+    line-height: 13px;
+    width: 384px;
+    margin: 0 0 10px 0;
+    background: url(../images/list-pointer.png) center right no-repeat;
+
+}
+
+
+/***
+ work
+***/
+
+
