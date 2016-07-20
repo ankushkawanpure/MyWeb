@@ -200,6 +200,7 @@ Bootstrap element
 /** Contact section */
 #contact {
     background-color: #fafafa;
+    min-width: 100%;
 }
 
 #contact-message {
