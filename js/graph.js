@@ -2,10 +2,23 @@
  * Created by Ankush on 7/19/16.
  */
 $(document).ready(function() {
+    // loadGraph();
 
     $('#waypoint').waypoint(function(direction) {
         if (direction === 'down') {
             loadGraph();
+            // Your current code
+        }
+        else {
+            // Code to select the previous section
+        }
+
+    }, { offset: '50%' });
+
+
+    $('#waypoint1').waypoint(function(direction) {
+        if (direction === 'down') {
+            loadGraph1();
             // Your current code
         }
         else {
@@ -79,15 +92,23 @@ var graph3Data =
         },
     ];
 
+var graph4Data =
+    [{
+        value: 60,
+        color:"#ee5a28"
+    },
+        {
+            value : 40,
+            color : "#e9e9e9"
+        },
+    ];
 
 
-function loadGraph()
-{
 
-
-
-
+function loadGraph() {
     var myDoughnut1 = new Chart(document.getElementById("canvas1").getContext("2d")).Doughnut(graph1Data, options);
     var myDoughnut2 = new Chart(document.getElementById("canvas2").getContext("2d")).Doughnut(graph2Data, options);
     var myDoughnut3 = new Chart(document.getElementById("canvas3").getContext("2d")).Doughnut(graph3Data, options);
 }
+
+
